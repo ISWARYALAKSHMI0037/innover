@@ -1,0 +1,17 @@
+{
+  "name": "offercheck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OfferCheck — Fake job & internship offer verifier (React + Express + MongoDB + vision LLM)",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n api,web -c blue,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

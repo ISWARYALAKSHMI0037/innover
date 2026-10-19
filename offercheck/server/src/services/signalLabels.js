@@ -1,0 +1,20 @@
+// Canonical (domain-independent) signal keys used for campus statistics.
+export const SIGNAL_LABELS = {
+  payment: 'Asks candidate to pay money',
+  'sender-type': 'Free or disposable sender email',
+  'domain-age': 'Newly registered or unregistered domain',
+  'dns-missing': 'Domain or website missing in DNS',
+  'no-mail-server': 'Sender domain cannot receive email',
+  'email-auth': 'Sender domain lacks SPF / DMARC',
+  'identity-mismatch': 'Company, sender and website do not match',
+  impersonation: 'Brand impersonation or look-alike domain',
+  'reply-to': 'Reply-To points to a different domain',
+  'domain-pattern': 'Suspicious domain name or TLD',
+  shortener: 'Link shortener used',
+  urgency: 'Pressure / urgency wording',
+  credentials: 'Asks for OTP, PIN or password',
+  'identity-docs': 'Asks for identity or bank details',
+  messaging: 'Moves chat to WhatsApp / Telegram',
+  guarantee: 'Promises selection without interview',
+  'header-auth': 'Email headers failed authentication',
+};

@@ -1,0 +1,15 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and virtual environments
+**/node_modules/
+**/.venv/
+
+# Generated detection output and video files
+/runs/
+*.avi
+
+# Workspace archive exceeds GitHub's regular-file limit
+/sign speak.zip
